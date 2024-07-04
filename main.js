@@ -152,77 +152,77 @@
 
   
     
-      const image_7bb4f153_675c0355_iconGeometry = new THREE.PlaneGeometry(1, 0.33);
-   const image_7bb4f153_675c0355_texture = await loadTexture("assets/DwAR Logo 1.png");
-  const image_7bb4f153_675c0355_image = new THREE.MeshBasicMaterial({
-      map: image_7bb4f153_675c0355_texture,
+      const image_7bb4f153_67529808_iconGeometry = new THREE.PlaneGeometry(1, 0.33);
+   const image_7bb4f153_67529808_texture = await loadTexture("assets/DwAR Logo 1.png");
+  const image_7bb4f153_67529808_image = new THREE.MeshBasicMaterial({
+      map: image_7bb4f153_67529808_texture,
     });
-    const image_7bb4f153_675c0355 = new THREE.Mesh(image_7bb4f153_675c0355_iconGeometry, image_7bb4f153_675c0355_image);
-    image_7bb4f153_675c0355.scale.set(0.4, 0.38, 1);
-    image_7bb4f153_675c0355.position.set(-0.3, -0.5, 0);
-    image_7bb4f153_675c0355.rotation.set(-0.001, 0, 0);
-    image_7bb4f153_675c0355.userData.clickable = true
+    const image_7bb4f153_67529808 = new THREE.Mesh(image_7bb4f153_67529808_iconGeometry, image_7bb4f153_67529808_image);
+    image_7bb4f153_67529808.scale.set(0.4, 0.38, 1);
+    image_7bb4f153_67529808.position.set(-0.3, -0.5, 0);
+    image_7bb4f153_67529808.rotation.set(-0.001, 0, 0);
+    image_7bb4f153_67529808.userData.clickable = true
     
-    image_7bb4f153_675c0355.userData.eventName ="Dwar Webpage"
-const image_98d96223_85a82382_iconGeometry = new THREE.PlaneGeometry(1, 0.31);
-   const image_98d96223_85a82382_texture = await loadTexture("assets/liberin.png");
-  const image_98d96223_85a82382_image = new THREE.MeshBasicMaterial({
-      map: image_98d96223_85a82382_texture,
+    image_7bb4f153_67529808.userData.eventName ="Dwar Webpage"
+const image_98d96223_85a9a3b9_iconGeometry = new THREE.PlaneGeometry(1, 0.31);
+   const image_98d96223_85a9a3b9_texture = await loadTexture("assets/liberin.png");
+  const image_98d96223_85a9a3b9_image = new THREE.MeshBasicMaterial({
+      map: image_98d96223_85a9a3b9_texture,
     });
-    const image_98d96223_85a82382 = new THREE.Mesh(image_98d96223_85a82382_iconGeometry, image_98d96223_85a82382_image);
-    image_98d96223_85a82382.scale.set(0.4, 0.4, 1);
-    image_98d96223_85a82382.position.set(0.3, -0.5, 0);
-    image_98d96223_85a82382.rotation.set(-0.001, 0, 0);
-    image_98d96223_85a82382.userData.clickable = true
+    const image_98d96223_85a9a3b9 = new THREE.Mesh(image_98d96223_85a9a3b9_iconGeometry, image_98d96223_85a9a3b9_image);
+    image_98d96223_85a9a3b9.scale.set(0.4, 0.4, 1);
+    image_98d96223_85a9a3b9.position.set(0.3, -0.5, 0);
+    image_98d96223_85a9a3b9.rotation.set(-0.001, 0, 0);
+    image_98d96223_85a9a3b9.userData.clickable = true
     
-    image_98d96223_85a82382.userData.eventName ="Liberin Website"
-const target_imageundefia8f05_iconGeometry = new THREE.PlaneGeometry(1, 0.723463687150838);
-   const target_imageundefia8f05_texture = await loadTexture("assets/dwar-standee-marker.png");
-  const target_imageundefia8f05_image = new THREE.MeshBasicMaterial({
-      map: target_imageundefia8f05_texture,
+    image_98d96223_85a9a3b9.userData.eventName ="Liberin Website"
+const target_imageundefi33aff_iconGeometry = new THREE.PlaneGeometry(1, 0.723463687150838);
+   const target_imageundefi33aff_texture = await loadTexture("assets/dwar-standee-marker.png");
+  const target_imageundefi33aff_image = new THREE.MeshBasicMaterial({
+      map: target_imageundefi33aff_texture,
     });
-    const target_imageundefia8f05 = new THREE.Mesh(target_imageundefia8f05_iconGeometry, target_imageundefia8f05_image);
-    target_imageundefia8f05.scale.set(1, 1, 1);
-    target_imageundefia8f05.position.set(0.01, -0.01, 0.01);
-    target_imageundefia8f05.rotation.set(-0.001, 0, 0);
+    const target_imageundefi33aff = new THREE.Mesh(target_imageundefi33aff_iconGeometry, target_imageundefi33aff_image);
+    target_imageundefi33aff.scale.set(1, 1, 1);
+    target_imageundefi33aff.position.set(0.01, -0.01, 0.01);
+    target_imageundefi33aff.rotation.set(-0.001, 0, 0);
     
     
     
 
-    const video_asset_21ff9aefd0d_planeGeometry = new THREE.PlaneGeometry(1, 0.5625);
+    const video_asset_90eb3ca19da_planeGeometry = new THREE.PlaneGeometry(1, 0.5625);
 
-    const video_asset_21ff9aefd0d_Item0Video = await loadVideo("assets/DwAR AD (final) (2).mp4");
+    const video_asset_90eb3ca19da_Item0Video = await loadVideo("assets/updated-Dwar- video-for-dwarstandee.mp4");
 
-    const video_asset_21ff9aefd0d_Item0VideoTexture = new THREE.VideoTexture(
-      video_asset_21ff9aefd0d_Item0Video
+    const video_asset_90eb3ca19da_Item0VideoTexture = new THREE.VideoTexture(
+      video_asset_90eb3ca19da_Item0Video
     );
 
-    let video_asset_21ff9aefd0d_Item0VideoMaterial
+    let video_asset_90eb3ca19da_Item0VideoMaterial
 
-      video_asset_21ff9aefd0d_Item0VideoMaterial = new THREE.MeshBasicMaterial({
-          map: video_asset_21ff9aefd0d_Item0VideoTexture,
+      video_asset_90eb3ca19da_Item0VideoMaterial = new THREE.MeshBasicMaterial({
+          map: video_asset_90eb3ca19da_Item0VideoTexture,
         })
     
-     const video_asset_21ff9aefd0d = new THREE.Mesh(
-      video_asset_21ff9aefd0d_planeGeometry,
-      video_asset_21ff9aefd0d_Item0VideoMaterial
+     const video_asset_90eb3ca19da = new THREE.Mesh(
+      video_asset_90eb3ca19da_planeGeometry,
+      video_asset_90eb3ca19da_Item0VideoMaterial
     );
 
-  video_asset_21ff9aefd0d.position.set(0, -0.013, 0);
+  video_asset_90eb3ca19da.position.set(0, 0, 0);
 
 
 
   if (isIOS) {
-    video_asset_21ff9aefd0d_Item0Video.muted=isIOS
+    video_asset_90eb3ca19da_Item0Video.muted=isIOS
     muteIconMesh = await loadUnmuteLogo();
     anchor.group.add(muteIconMesh);
   }
 
-  video_asset_21ff9aefd0d_Item0Video.loop=true;
+  video_asset_90eb3ca19da_Item0Video.loop=true;
   
-  video_asset_21ff9aefd0d.scale.set(1.3, 1.3, 1.3);
+  video_asset_90eb3ca19da.scale.set(1.3, 1.3, 1.3);
 
-    video_asset_21ff9aefd0d.rotation.set(-0.002, 0, 0);
+    video_asset_90eb3ca19da.rotation.set(-0.001, 0, 0);
 
     
   
@@ -258,7 +258,7 @@ const target_imageundefia8f05_iconGeometry = new THREE.PlaneGeometry(1, 0.723463
 
         if(isIOS){ 
           if (o.userData.clickable && o === muteIconMesh) {
-            video_asset_21ff9aefd0d_Item0Video.muted=false
+            video_asset_90eb3ca19da_Item0Video.muted=false
     
             anchor.group.remove(muteIconMesh);
             return true;
@@ -271,14 +271,14 @@ const target_imageundefia8f05_iconGeometry = new THREE.PlaneGeometry(1, 0.723463
       if (o.userData.clickable) window.showLoadingScreen();
 
       
-      if (o.userData.clickable && o === image_7bb4f153_675c0355) {
+      if (o.userData.clickable && o === image_7bb4f153_67529808) {
         setTimeout(()=>{
           window.location.href = "https://liberintechnologies.com/DWar/"
         },100)
         }
       
 
-      if (o.userData.clickable && o === image_98d96223_85a82382) {
+      if (o.userData.clickable && o === image_98d96223_85a9a3b9) {
         setTimeout(()=>{
           window.location.href = "https://liberintechnologies.com/"
         },100)
@@ -289,10 +289,10 @@ const target_imageundefia8f05_iconGeometry = new THREE.PlaneGeometry(1, 0.723463
     })
     
       
-    anchor.group.add(image_7bb4f153_675c0355)
-anchor.group.add(image_98d96223_85a82382)
+    anchor.group.add(image_7bb4f153_67529808)
+anchor.group.add(image_98d96223_85a9a3b9)
 
-anchor.group.add(video_asset_21ff9aefd0d)
+anchor.group.add(video_asset_90eb3ca19da)
 
 
     anchor.onTargetFound = () => {
@@ -310,12 +310,12 @@ anchor.group.add(video_asset_21ff9aefd0d)
 
 
      
-      video_asset_21ff9aefd0d_Item0Video.play();
+      video_asset_90eb3ca19da_Item0Video.play();
     };
 
 
     anchor.onTargetLost = () => {
-       video_asset_21ff9aefd0d_Item0Video.pause();
+       video_asset_90eb3ca19da_Item0Video.pause();
 
         
 
